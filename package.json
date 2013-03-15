@@ -1,0 +1,37 @@
+{
+  "name": "changes",
+  "version": "0.0.0",
+  "description": "A consistent, fault tolerant CouchDB _changes listener with pre-fetch support",
+  "keywords": [
+    "couchdb",
+    "changes",
+    "views",
+    "consistent"
+  ],
+  "contributors": [
+    {
+      "name": "Charlie Robbins",
+      "email": "charlie@nodejitsu.com"
+    },
+    {
+      "name": "Bradley Meck",
+      "email": "bradley@nodejitsu.com",
+    },
+    {
+      "name": "Maciej Malecki",
+      "email": "maciej@nodejitsu.com"
+    }
+  ],
+  "main": "./lib/changes.js",
+  "homepage": "http://github.com/indexzero/follow",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/indexzero/changes"
+  },
+  "engines": {
+    "node": "0.8.x | 0.6.x"
+  },
+  "dependencies": {
+    "request": "~2.14.0"
+  }
+}
