@@ -1,6 +1,6 @@
 {
   "name": "changes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A consistent, fault tolerant CouchDB _changes listener with pre-fetch support",
   "keywords": [
     "couchdb",
