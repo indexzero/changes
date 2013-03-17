@@ -50,7 +50,7 @@ Often when you establish a connection to `_changes` you also want to know about 
     url: 'http://user:pass@127.0.0.1:5984/database',
     views: {
       'important': {
-        path: '_design/Some/_view/name,
+        path: '_design/Some/_view/name',
         query: { include_docs: true }
       }
     },
