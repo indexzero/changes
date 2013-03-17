@@ -10,20 +10,20 @@
   ],
   "contributors": [
     {
-      "name": "Charlie Robbins",
-      "email": "charlie@nodejitsu.com"
-    },
-    {
       "name": "Bradley Meck",
       "email": "bradley@nodejitsu.com"
     },
     {
       "name": "Maciej Malecki",
       "email": "maciej@nodejitsu.com"
+    },
+    {
+      "name": "Charlie Robbins",
+      "email": "charlie@nodejitsu.com"
     }
   ],
   "main": "./lib/changes.js",
-  "homepage": "http://github.com/indexzero/follow",
+  "homepage": "http://github.com/indexzero/changes",
   "repository": {
     "type": "git",
     "url": "git://github.com/indexzero/changes"
@@ -32,6 +32,8 @@
     "node": "0.8.x | 0.6.x"
   },
   "dependencies": {
+    "async": "~0.2.6",
+    "qs": "~0.5.4",
     "request": "~2.14.0"
   }
 }
