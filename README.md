@@ -43,7 +43,7 @@ A consistent, fault tolerant CouchDB _changes listener with pre-fetch support.
 
 Often when you establish a connection to `_changes` you also want to know about the other documents in a view before the current `update_seq`. This is supported like this:
 
-```
+``` js
   var Changes = require('changes');
   
   var changes = new Changes({
