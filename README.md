@@ -96,5 +96,18 @@ Often when you establish a connection to `_changes` you also want to know about 
   });
 ```
 
+## Filtering `_changes` feed
+CouchDB's filtered `_changes` feed is documented [here](http://guide.couchdb.org/draft/notifications.html#filters).
+All `Changes` needs to make use of it is a `filter` option:
+
+``` js
+var Changes = require('changes');
+
+var changes = new Changes({
+  url: 'http://user:pass@127.0.0.1:5984/database',
+  filter: 'app/filter'
+});
+```
+
 #### License: MIT
 #### Authors: [Bradley Meck](https://github.com/bmeck), [Maciej Malecki](https://github.com/mmalecki), [Charlie Robbins](https://github.com/indexzero)
